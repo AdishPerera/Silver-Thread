@@ -1,0 +1,221 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(../images/userdata.jpg); 
+    background-color: #cccccc;
+    background-size: cover;
+    
+    font-family: 'Quicksand', sans-serif;
+}
+
+.passbox
+{
+    width: 500px;
+    height: 400px;
+    background: rgba(77, 71, 75, 0.459);
+    color: hsl(320, 10%, 94%);
+    top: 60%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #2201015d;
+   
+    
+}
+
+::placeholder { 
+    color: rgba(221, 220, 220, 0.192);
+    opacity: 1; 
+   
+    
+  }
+
+  h1
+{
+    padding-left: 15px;
+    margin-top: 10px;
+    font-size:100px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(240, 255, 255, 0.808);
+}
+
+h2
+{
+    
+    font-size:15px;
+    margin-top: -160px;
+    text-align: right;
+    padding-right: 15px;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+a {
+    
+    text-decoration: none;
+    background-color: #ffffff;
+    color: rgb(139, 11, 75);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(104, 19, 83);
+  }
+
+
+
+  .passbox h1
+{
+
+    text-align: left;
+    padding-left: 130px;
+    padding-top: 10px;
+    font-size:22px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.passbox p
+{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+}
+
+
+
+.passbox input[type="password"]
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    background: transparent;
+    height:30px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-bottom:35px;
+    width:150px;
+    
+     
+}
+
+
+.passbox input[type="submit"]
+{
+    
+    border:none;
+    outline: none;
+    height: 40px;
+    background: rgb(194, 37, 107);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -90px;
+    margin-left:-40px;
+    width:230px;
+
+}
+
+.passbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: rgb(146, 29, 82);
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    
+
+}
+
+
+form
+{
+    padding-left: 170px;
+    padding-top: 20px;
+}
+
+
+.mailbox
+{
+    width: 500px;
+    height: 400px;
+    background: rgba(77, 71, 75, 0.459);
+    color: hsl(320, 10%, 94%);
+    top: 60%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #2201015d;
+   
+    
+}
+
+.mailbox h1
+{
+
+    text-align: left;
+    padding-left: 170px;
+    padding-top: 10px;
+    font-size:22px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.mailbox p
+{
+    margin:0;
+    margin-left:-20px;
+    padding:0;
+    font-weight:bold;
+}
+
+.mailbox input[type="email"]
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    background: transparent;
+    height:30px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-bottom:35px;
+    width:200px;
+    margin-left:-20px;
+    
+     
+}
+
+
+.mailbox input[type="submit"]
+{
+    
+    border:none;
+    outline: none;
+    height: 40px;
+    background: rgb(194, 37, 107);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 75px;
+    margin-left:-30px;
+    width:230px;
+
+}
+
+.mailbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: rgb(146, 29, 82);
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    
+
+}
+

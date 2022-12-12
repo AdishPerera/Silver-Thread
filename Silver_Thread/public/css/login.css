@@ -1,0 +1,170 @@
+body
+{
+    margin: 0;
+    padding: 350px;
+    background: url(../images/logincovr.jpg); 
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.signinbox
+{
+    width: 420px;
+    height: 500px;
+    background: rgba(241, 183, 222, 0.63);
+    color: rgb(65, 6, 33);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    
+}
+
+::placeholder { 
+    color: rgba(221, 220, 220, 0.192);
+    opacity: 1; 
+    
+  }
+
+.avatar
+{
+    width: 100px;
+    height:100px;
+    border-radius:50%;
+    position: absolute;
+    top:-9%;
+    left: calc(50% - 50px);
+    
+}
+
+h1
+{
+    margin: 0;
+    padding:0 0 20px;
+    text-align: center;
+    font-size:24px;
+}
+
+.signinbox p
+{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+}
+
+.signinbox input
+{
+    width:300px;
+    margin-bottom:30px;
+    
+    
+}
+
+.signinbox input[type="text"], input[type="email"]
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    background: transparent;
+    height:40px;
+    color: rgb(75, 20, 66);
+    font-size: 16px;
+    
+    
+}
+
+.signinbox input[type="text"], input[type="password"]
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    background: transparent;
+    height:40px;
+    color: rgb(75, 20, 66);
+    font-size: 16px;
+    
+    
+}
+
+
+.signinbox input[type="submit"]
+{
+    
+    border:none;
+    outline: none;
+    height: 40px;
+    background: rgb(194, 37, 107);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.signinbox button[type="submit"]
+{
+    align-self: center;
+    cursor: pointer;
+    background: rgb(146, 29, 82);
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    width: 92%;
+}
+
+.signinbox a
+{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    
+}
+
+
+.signinbox h3
+{
+    margin-top: -25px;
+}
+
+.signinbox a:hover
+
+{
+    color: rgb(75, 20, 66);
+}
+
+.signinbox a[class="btn btn-link"]
+{
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    line-height: 1.1;
+}
+
+.signinbox a[class="btn btn-link"]:hover
+{
+    color: rgb(75, 20, 66);    
+}
+
+form
+{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+h2
+{
+    font-size: 40px; 
+    text-align: justify;
+    margin-top: -10px;
+}
+
+h2:hover
+{
+    text-decoration: underline;
+}
